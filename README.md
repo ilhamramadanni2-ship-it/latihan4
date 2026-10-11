@@ -32,5 +32,26 @@ Praktikum Struktur Data Modul 4 mengenai implementasi Abstract Data Type (ADT) S
 
 ### Lewat Terminal (g++)
 ```bash
-g++ main.cpp Singlylist.cpp -o singlylist
+g++ main.cpp Singlylist.
+
+
+## Code::Blocks
+
+1. Buat project baru: `File > New > Project > Console application > C++`
+2. Tambahkan `Singlylist.h`, `Singlylist.cpp`, dan `main.cpp` ke project
+3. Pastikan opsi "all in build target" tercentang untuk setiap file
+4. Build and Run dengan `F9`
+
+## Contoh Output
+
+```text
+List awal     : 3 7 15 10 6
+Setelah delFirst : 7 15 10 6
+Setelah delLast  : 7 15 10
+Setelah delAfter (setelah 15): 7 15
+Setelah update 7 -> 9 : 9 15
+Setelah delAll   : (list kosong)
+```
+
+List awal berurutan `9 12 8 0 2` karena `insertFirst` selalu menaruh elemen baru di depan, sehingga elemen yang dimasukkan terakhir menjadi elemen pertama[cite: 13, 14].cpp -o singlylist
 ./singlylist
