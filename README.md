@@ -44,14 +44,13 @@ g++ main.cpp Singlylist.
 
 ## Contoh Output
 
-```text
 List awal     : 3 7 15 10 6
 Setelah delFirst : 7 15 10 6
 Setelah delLast  : 7 15 10
 Setelah delAfter (setelah 15): 7 15
 Setelah update 7 -> 9 : 9 15
 Setelah delAll   : (list kosong)
-```
 
-List awal berurutan `9 12 8 0 2` karena `insertFirst` selalu menaruh elemen baru di depan, sehingga elemen yang dimasukkan terakhir menjadi elemen pertama[cite: 13, 14].cpp -o singlylist
+
+List awal berurutan `9 12 8 0 2` karena `insertFirst` selalu menaruh elemen baru di depan, sehingga elemen yang dimasukkan terakhir menjadi elemen pertama.cpp -o singlylist
 ./singlylist
